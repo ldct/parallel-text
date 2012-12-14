@@ -1,0 +1,7 @@
+.jp-focus {
+  background-color: pink;
+}
+
+span:hover {
+  background-color: skyblue;
+}

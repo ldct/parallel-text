@@ -1,0 +1,50 @@
+<meta charset="utf-8">
+
+<html>
+<head>
+<script src="jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="text.css" />
+</head>
+<body>
+
+<div style="width:45%; float: left; border: 1px solid gray;">
+
+<span id="eng-1">
+One dollar and eighty-seven cents. 
+</span>
+
+<span id="eng-2">
+That was all. 
+</span>
+
+</div>
+
+<div style="width:45%; float: right; border: 1px solid gray;">
+
+<span id="jap-1">
+１ドル８７セント。
+</span>
+
+<span id="jap-2">
+それで全部。
+</span>
+
+</div>
+
+<script>
+$("#eng-1").hover( function() {
+  $("#jap-1").addClass("jp-focus");
+}, function() {
+  $("#jap-1").removeClass("jp-focus");
+});
+
+$("#eng-2").hover( function() {
+  $("#jap-2").addClass("jp-focus");
+}, function() {
+  $("#jap-2").removeClass("jp-focus");
+});
+</script>
+
+
+</body>
+</html>
