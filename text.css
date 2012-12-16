@@ -1,7 +1,44 @@
-.jp-focus {
+.jap-focus {
   background-color: pink;
 }
 
-span:hover {
+.eng-focus {
   background-color: skyblue;
+}
+
+.eng span:hover {
+  background-color: skyblue;
+}
+
+.jap span:hover {
+  background-color: pink;
+}
+
+.eng {
+  width: 45%; 
+  float: right;
+}
+
+.jap {
+  width: 45%; 
+  float: left;
+}
+
+.alignment {
+  float: left;
+  width: 100%;
+}
+
+/*
+.eng, .jap {
+  border: 1px solid gray;
+}
+
+.alignment {
+  border: 1px solid green;
+}
+*/
+
+#text {
+  display: none;
 }
